@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.tecsup.petclinic.controller.PetControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 7.058 s <<< FAILURE! - in com.tecsup.petclinic.controller.PetControllerTest
+testGetPets  Time elapsed: 0.313 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.tecsup.petclinic.controller.PetControllerTest.testGetPets(PetControllerTest.java:50)
+
+testDeletePet  Time elapsed: 0.057 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at com.tecsup.petclinic.controller.PetControllerTest.testDeletePet(PetControllerTest.java:160)
+
+testFindPetOK  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Content type not set
+	at com.tecsup.petclinic.controller.PetControllerTest.testFindPetOK(PetControllerTest.java:84)
+
+testCreatePet  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at com.tecsup.petclinic.controller.PetControllerTest.testCreatePet(PetControllerTest.java:132)
+
